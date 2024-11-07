@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    android:layout_marginTop="10dp"
+    android:backgroundTint="#E6D394"
+    android:elevation="@dimen/_10sdp"
+    android:paddingTop="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_7sdp">
+
+    <RelativeLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:paddingVertical="@dimen/_7sdp"
+        android:paddingStart="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dbfjhgs"
+            android:textColor="#020000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/loti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:maxLines="1"
+            android:text="dbfjhgs"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/longi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/loti"
+            android:maxLines="1"
+            android:text="dbfjhgs"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/deleteButton"
+            android:layout_width="52dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/baseline_delete_24" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
